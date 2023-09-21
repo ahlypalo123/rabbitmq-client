@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: rabbit-client
+  rabbitmq:
+    addresses: localhost:5672
+    virtual-host: /
+    username: admin
+    password: admin
