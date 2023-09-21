@@ -23,6 +23,7 @@ dependencies {
 	implementation("org.springframework.amqp:spring-rabbit:3.0.9")
 	implementation("org.jetbrains.kotlin:kotlin-reflect")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
+	testImplementation("com.fasterxml.jackson.core:jackson-databind:2.15.2")
 }
 
 tasks.withType<KotlinCompile> {
